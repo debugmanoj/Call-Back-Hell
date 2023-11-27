@@ -1,5 +1,5 @@
 let timer=document.getElementById("timer")
-let result=document.getElementById("result")
+let flag=document.getElementById("flag")
 setTimeout(()=>{
     timer.textContent="10"
     setTimeout(()=>{
@@ -22,7 +22,7 @@ setTimeout(()=>{
                                         timer.textContent="1"
                                         setTimeout(()=>{
                                             timer.textContent="Happy Independence Day"
-
+                                            flag.style.visibility = "visible";
                                         },1000)
 
                                     },1000)

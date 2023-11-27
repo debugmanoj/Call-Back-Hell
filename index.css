@@ -10,10 +10,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
     border-radius: 50px;
     width: auto;
     background-color: rgb(6, 151, 234);
     font-size: 35px;
     
+}
+img{
+    width: 100%;
+    visibility: hidden;
 }
